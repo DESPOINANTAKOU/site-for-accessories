@@ -1,0 +1,307 @@
+.wd-popup.wd-promo-popup{
+	background-color:#111111;
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:left center;
+}
+
+.page-title-default{
+	background-color:rgb(255,255,255);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;
+}
+
+.footer-container{
+	background-color:rgb(221,161,161);
+}
+
+:root{
+--wd-text-font:"Lato", Arial, Helvetica, sans-serif;
+--wd-text-font-weight:400;
+--wd-text-color:rgb(43,43,43);
+--wd-text-font-size:16px;
+}
+:root{
+--wd-title-font:"Roboto", Arial, Helvetica, sans-serif;
+--wd-title-font-weight:500;
+--wd-title-transform:uppercase;
+--wd-title-color:rgb(0,0,0);
+}
+:root{
+--wd-entities-title-font:"Roboto", Arial, Helvetica, sans-serif;
+--wd-entities-title-font-weight:400;
+--wd-entities-title-transform:uppercase;
+--wd-entities-title-color:rgb(0,0,0);
+--wd-entities-title-color-hover:rgb(0, 0, 0);
+}
+:root{
+--wd-alternative-font:"Lato", Arial, Helvetica, sans-serif;
+}
+:root{
+--wd-widget-title-font:"Roboto", Arial, Helvetica, sans-serif;
+--wd-widget-title-font-weight:500;
+--wd-widget-title-transform:capitalize;
+--wd-widget-title-color:rgb(0,0,0);
+--wd-widget-title-font-size:16px;
+}
+:root{
+--wd-header-el-font:"Lato", Arial, Helvetica, sans-serif;
+--wd-header-el-font-weight:700;
+--wd-header-el-transform:uppercase;
+--wd-header-el-font-size:13px;
+}
+:root{
+--wd-primary-color:rgb(221,73,73);
+}
+:root{
+--wd-alternative-color:rgb(0,0,0);
+}
+:root{
+--wd-link-color:#333333;
+--wd-link-color-hover:#242424;
+}
+.woodmart-archive-shop .main-page-wrapper{
+	background-color:rgb(255,255,255);
+}
+
+:root{
+--btn-default-bgcolor:rgb(221,73,73);
+}
+:root{
+--btn-default-bgcolor-hover:rgb(221,51,51);
+}
+:root{
+--btn-shop-bgcolor:rgb(81,81,81);
+}
+:root{
+--btn-shop-bgcolor-hover:rgb(221,51,51);
+}
+:root{
+--btn-accent-bgcolor:rgb(221,51,51);
+}
+:root{
+--btn-accent-bgcolor-hover:rgb(221,51,51);
+}
+:root{
+--notices-success-bg:#459647;
+}
+:root{
+--notices-success-color:#fff;
+}
+:root{
+--notices-warning-bg:rgb(221,73,73);
+}
+:root{
+--notices-warning-color:#fff;
+}
+	:root{
+	
+			--wd-form-brd-radius: 5px;
+	
+	
+	--wd-form-brd-width: 2px;
+
+	--btn-default-color: #333;
+	--btn-default-color-hover: #333;
+
+	--btn-shop-color: #fff;
+	--btn-shop-color-hover: #fff;
+
+	--btn-accent-color: #fff;
+	--btn-accent-color-hover: #fff;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+			--btn-default-brd-radius: 5px;
+		--btn-default-box-shadow: none;
+		--btn-default-box-shadow-hover: none;
+	
+			--btn-shop-brd-radius: 5px;
+		--btn-shop-box-shadow: none;
+		--btn-shop-box-shadow-hover: none;
+	
+			--btn-accent-brd-radius: 5px;
+		--btn-accent-box-shadow: none;
+		--btn-accent-box-shadow-hover: none;
+		}
+
+	/* Site width */
+		/* Header Boxed */
+	@media (min-width: 1025px) {
+		.whb-boxed:not(.whb-sticked):not(.whb-full-width) .whb-main-header {
+			max-width: 1192px;
+		}
+	}
+
+	.container {
+		max-width: 1222px;
+	}
+	
+	
+		.elementor-section.wd-section-stretch > .elementor-column-gap-no {
+			max-width: 1192px;
+		}
+
+		.elementor-section.wd-section-stretch > .elementor-column-gap-narrow {
+			max-width: 1202px;
+		}
+
+		.elementor-section.wd-section-stretch > .elementor-column-gap-default {
+			max-width: 1212px;
+		}
+
+		.elementor-section.wd-section-stretch > .elementor-column-gap-extended {
+			max-width: 1222px;
+		}
+
+		.elementor-section.wd-section-stretch > .elementor-column-gap-wide {
+			max-width: 1232px;
+		}
+
+		.elementor-section.wd-section-stretch > .elementor-column-gap-wider {
+			max-width: 1252px;
+		}
+
+		@media (min-width: 1239px) {
+
+			.platform-Windows .wd-section-stretch > .elementor-container {
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}
+
+		@media (min-width: 1222px) {
+
+			html:not(.platform-Windows) .wd-section-stretch > .elementor-container {
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}
+
+	
+/* Quick view */
+div.wd-popup.popup-quick-view {
+	max-width: 920px;
+}
+
+/* Shop popup */
+div.wd-popup.wd-promo-popup {
+	max-width: 800px;
+}
+
+/* Age verify */
+div.wd-popup.wd-age-verify {
+	max-width: 500px;
+}
+
+/* Header Banner */
+.header-banner {
+	height: 40px;
+}
+
+body.header-banner-display .website-wrapper {
+	margin-top:40px;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+	/* header Banner */
+	.header-banner {
+		height: 40px;
+	}
+	
+	body.header-banner-display .website-wrapper {
+		margin-top:40px;
+	}
+}
+
+.woodmart-woocommerce-layered-nav .wd-scroll-content {
+	max-height: 280px;
+}
+		
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: "woodmart-font";
+	src: url("//tagaccessorize.com/wp-content/themes/woodmart/fonts/woodmart-font.woff2?v=6.1.5") format("woff2"),
+	url("//tagaccessorize.com/wp-content/themes/woodmart/fonts/woodmart-font.woff?v=6.1.5") format("woff");
+}
+
+.widget, .wd-widget, div[class^="vc_wp"] {
+     --wd-link-color: black;
+}
+
+
+/*.elementor-column-gap-default>.elementor-column>.elementor-element-populated {
+    display : none;
+}
+
+div.entry-content{
+   text-align: center;
+	margin-left: -35%;
+}*/
+
+div.elementor-widget-wrap.elementor-populated{
+   display: none;
+}
+
+.footer-column {
+    margin-bottom: -6%;
+}
+
+.whb-col-right .wd-dropdown-my-account {
+    display: none;
+}
+	
+/*#wpcf7-f4-o1{
+	display: block;
+	background-color: lightpink;
+}*/
+
+/*#12084{
+	margin-left: 20%;
+}*/
+@media (min-width: 768px) and (max-width: 1024px) {
+	@media (max-width: 768px){		
+	.elementor-459 .elementor-element.elementor-element-7cfaf88 > .elementor-widget-container {
+    background-color: #F1D3D3;
+    border-style: solid;
+    border-color: #D7B1B1;
+    width: 225 !important;
+    width: 153% !important;
+    margin-top: -7% !important;
+    padding-top: 5% !important;
+    opacity: 0.8 !important;
+}
+	}
+	
+@media (max-width: 768px){			
+	.elementor-459 .elementor-element.elementor-element-783dc1c > .elementor-widget-container {
+    background-color: var( --e-global-color-ccf3faa );
+    margin-top: -589% !important;
+    margin-left: -97% !important;
+    width: 101% !important;
+    opacity: 0.8 !important;
+}
+	}
+	
+	@media (max-width: 768px){	
+	.elementor-459 .elementor-element.elementor-element-c36dc5d > .elementor-widget-container {
+    background-color: #F1D3D3;
+    border-style: solid;
+    border-color: #D7B1B1;
+    opacity: 0.8 !important;
+    margin-left: 77% !important;
+    width: 96% !important;
+    margin-top: 1456% !important;
+}
+			}
+}
+
